@@ -3,7 +3,7 @@
 import expect from 'expect';
 import fs from 'fs';
 import path from 'path';
-import Slate from '@gitbook/slate';
+import Slate from 'slate';
 import hyperprint from 'slate-hyperprint';
 
 import EditList from '../lib';
@@ -14,7 +14,7 @@ function deserializeValue(plugin, value) {
         plugins: [plugin]
     });
 
-    return Slate.Value.fromJS(
+    return Slate.Value.fromJSON(
         {
             selection: value.selection,
             document: value.document,

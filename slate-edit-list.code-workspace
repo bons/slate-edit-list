@@ -1,0 +1,50 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "javascript.validate.enable": false,
+    "flow.enabled": true,
+    "flow.useLSP": false,
+    "flow.showUncovered": false,
+    "flow.runOnEdit": true,
+    "flow.fileExtensions": [".js", ".mjs", ".jsx", ".flow", ".json"],
+    "flow.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow",
+    "flow.useNPMPackagedFlow": false,
+    "editor.tabSize": 2,
+    "path-intellisense.absolutePathToWorkspace": true,
+    "path-intellisense.extensionOnImport": false,
+    "auto-close-tag.SublimeText3Mode": true,
+    "npm-intellisense.importDeclarationType": "const",
+    "npm-intellisense.importLinebreak": "\r\n",
+    "npm-intellisense.packageSubfoldersIntellisense": true,
+    "npm-intellisense.recursivePackageJsonLookup": true,
+    "npm-intellisense.importES6": true,
+    "npm-intellisense.importQuotes": "'",
+    "prettier.bracketSpacing": false,
+    "prettier.arrowParens": "avoid",
+    "prettier.eslintIntegration": true,
+    "prettier.jsxBracketSameLine": true,
+    "prettier.parser": "flow",
+    "prettier.printWidth": 120,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.stylelintIntegration": true,
+    "prettier.useTabs": false,
+    "files.associations": {
+      "*.js": "javascriptreact",
+      "*.css": "postcss"
+    },
+    "javascript.format.enable": false,
+    "editor.formatOnSave": true,
+    "better-comments.multilineComments": true,
+    "emmet.includeLanguages": {
+      "postcss": "css"
+    },
+    "emmet.syntaxProfiles": {
+      "postcss": "css"
+    }
+  }
+}

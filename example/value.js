@@ -1,6 +1,6 @@
 /** @jsx h */
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { createHyperscript } from '@gitbook/slate-hyperscript';
+import { createHyperscript } from 'slate-hyperscript';
 
 const h = createHyperscript({
     blocks: {
@@ -21,7 +21,7 @@ export default (
                 Press Enter in a list to create a new list item. Press Enter
                 again to exit and Shift+Enter to create a paragraph in a list.
                 The items at range are detected and highlighted, for
-                demonstration purpose.
+                demonstration purpose. xd1
             </paragraph>
             <ul_list style={{ listStyleType: 'disc' }}>
                 <list_item>
